@@ -1,4 +1,5 @@
-const db=require('../db')()
+const {fetchTasks}=require('../db')
+const db=fetchTasks()
 module.exports.getTasks=(req,res)=>{
     if(req.query.status=='pending') 
     {

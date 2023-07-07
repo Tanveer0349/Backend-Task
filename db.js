@@ -1,4 +1,4 @@
-module.exports=function(){
+module.exports.fetchTasks=function(){
     return [
         {name:'Task1',status:'pending'},
         {name:'Task2',status:'completed'},
